@@ -1,0 +1,36 @@
+name: mirante_sicoob_challenge
+description: "A Mirante/Sicoob challenge"
+publish_to: "none"
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=3.4.4 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_localizations:
+    sdk: flutter
+
+  intl: ^0.19.0
+  cupertino_icons: ^1.0.6
+  get_it: ^7.7.0
+  dartz: ^0.10.1
+  dio: ^5.5.0+1
+  mobx: ^2.3.3+2
+  flutter_mobx: ^2.2.1+1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^3.0.0
+  build_runner: ^2.4.11
+  mobx_codegen: ^2.6.1
+
+flutter:
+  uses-material-design: true
+
+flutter_intl:
+  enabled: true
